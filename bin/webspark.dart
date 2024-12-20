@@ -76,10 +76,10 @@ void main() {
 
 
     if (shortestPath.isEmpty) {
-      print("Путь не найден");
+      print("Щлях не знайдено");
     } else {
       print(
-          "Кратчайший путь: ${shortestPath.map((p) => '(${p.x}, ${p.y})').join(
+          "Найкоротший шлях: ${shortestPath.map((p) => '(${p.x}, ${p.y})').join(
               ' -> ')}");
     }
   }
